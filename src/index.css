@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Isse padding width se bahar nahi niklegi */
+  html {
+  scroll-behavior: smooth;
+}
+}
+body {
+  margin: 0;
+  background-color: black;
+}
+
+body, html {
+  overflow-x: hidden; /* Kisi bhi soorat horizontal scroll nahi aane dega */
+  width: 100%;
+  scroll-behavior: smooth;
+
+  
+}
