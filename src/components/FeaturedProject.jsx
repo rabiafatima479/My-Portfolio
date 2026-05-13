@@ -15,7 +15,7 @@ export default function FeaturedProject() {
       {/* Background Decorative Element */}
       <div style={{ 
         position: 'absolute', top: '-10%', right: '-5%', width: '400px', height: '400px', 
-        backgroundColor: '#ff9a76', filter: 'blur(150px)', opacity: 0.15, borderRadius: '50%' 
+        backgroundColor: '#8A2BE2', filter: 'blur(150px)', opacity: 0.15, borderRadius: '50%' 
       }} />
 
       <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '60px', alignItems: 'center' }}>
@@ -53,9 +53,9 @@ export default function FeaturedProject() {
               animate={{ scale: [1, 1.05, 1] }}
               transition={{ duration: 4, repeat: Infinity }}
               style={{ 
-                width: '120px', height: '120px', backgroundColor: '#ff9a76', 
+                width: '120px', height: '120px', backgroundColor: '#8A2BE2', 
                 borderRadius: '30px', transform: 'rotate(15deg)',
-                boxShadow: '0 20px 50px rgba(255, 154, 118, 0.3)',
+                boxShadow: '0 20px 50px rgba(138, 43, 226, 0.3)',
                 display: 'flex', alignItems: 'center', justifyItems: 'center'
               }}
             >
@@ -66,7 +66,7 @@ export default function FeaturedProject() {
           {/* Floating Status Card */}
           <div style={{ 
             position: 'absolute', bottom: '20px', right: '-20px', 
-            backgroundColor: '#ff9a76', padding: '15px 25px', borderRadius: '15px',
+            backgroundColor: '#8A2BE2', padding: '15px 25px', borderRadius: '15px',
             color: '#000', fontWeight: '800', fontSize: '0.9rem', boxShadow: '0 10px 30px rgba(0,0,0,0.5)'
           }}>
             🚀 DEPLOYING SOON
@@ -80,7 +80,7 @@ export default function FeaturedProject() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <p style={{ color: '#ff9a76', fontWeight: '900', letterSpacing: '4px', fontSize: '0.8rem', marginBottom: '15px' }}>
+          <p style={{ color: '#8A2BE2', fontWeight: '900', letterSpacing: '4px', fontSize: '0.8rem', marginBottom: '15px' }}>
             {/* // FLAGSHIP PROJECT */}
           </p>
           <h2 style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: '900', lineHeight: 1.1, marginBottom: '25px' }}>

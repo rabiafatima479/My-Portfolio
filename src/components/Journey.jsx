@@ -12,7 +12,7 @@ export default function Journey() {
       title: "Zero to One",
       desc: "Programming ka 'P' bhi nahi pata tha. Google search tak ek mystery thi. Maine ek bilkul nayi dunya mein kadam rakha.",
       icon: <Search size={22} />,
-      color: "#ff9a76"
+      color: "#8A2BE2"
     },
     {
       id: "02",
@@ -30,7 +30,7 @@ export default function Journey() {
       title: "Azm Contest Winner",
       desc: "Azm contest mein participate kiya aur apni skills ke dum par Top 10 mein jagah banayi aur title win kiya.",
       icon: <Trophy size={22} />,
-      color: "#ff9a76"
+      color: "#8A2BE2"
     },
     {
       id: "04",
@@ -57,7 +57,7 @@ export default function Journey() {
       title: "Professional Shift",
       desc: "4 months milestone at my job. Programming passion ko sath rakhte hue ab real-world solutions build kar rahi hoon.",
       icon: <Code2 size={22} />,
-      color: "#FF7F50"
+      color: "#8A2BE2"
     }  ];
 
   return (
@@ -79,7 +79,7 @@ export default function Journey() {
           style={{
             position: 'absolute', top: '10%', left: 0,
             fontSize: '18vw', fontWeight: '900', 
-            color: 'rgba(255, 154, 118, 0.08)', 
+            color: 'rgba(138, 43, 226, 0.08)', 
             whiteSpace: 'nowrap',
           }}
         >
@@ -109,12 +109,12 @@ export default function Journey() {
           <motion.p 
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            style={{ color: '#ff9a76', fontWeight: '900', fontSize: '0.8rem', letterSpacing: '6px' }}
+            style={{ color: '#8A2BE2', fontWeight: '900', fontSize: '0.8rem', letterSpacing: '6px' }}
           >
             {/* // MY CHAPTERS */}
           </motion.p>
           <h2 style={{ fontSize: 'clamp(2.5rem, 7vw, 5rem)', fontWeight: '950', color: '#000', lineHeight: '1', letterSpacing: '-3px' }}>
-            The 17-Year Old <br/> <span style={{ color: '#ff9a76' }}>Prodigy.</span>
+            The 17-Year Old <br/> <span style={{ color: '#8A2BE2' }}>Prodigy.</span>
           </h2>
         </div>
 
@@ -144,7 +144,7 @@ export default function Journey() {
                   whileHover={{ 
                     y: -10, 
                     scale: 1.02,
-                    boxShadow: '0 50px 80px rgba(255, 154, 118, 0.12)'
+                    boxShadow: '0 50px 80px rgba(138, 43, 226, 0.12)'
                   }}
                   style={{
                     width: '100%',
@@ -153,7 +153,7 @@ export default function Journey() {
                     padding: '50px',
                     borderRadius: '35px',
                     boxShadow: '0 30px 60px rgba(0,0,0,0.05)',
-                    border: '1px solid rgba(255, 154, 118, 0.15)',
+                    border: '1px solid rgba(138, 43, 226, 0.15)',
                     position: 'relative',
                     overflow: 'hidden',
                     cursor: 'pointer'
@@ -172,8 +172,8 @@ export default function Journey() {
 
                   {/* Card Content */}
                   <div style={{ position: 'relative', zIndex: 1 }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px', color: '#ff9a76', marginBottom: '15px' }}>
-                      <div style={{ padding: '8px', borderRadius: '12px', background: 'rgba(255, 154, 118, 0.1)' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px', color: '#8A2BE2', marginBottom: '15px' }}>
+                      <div style={{ padding: '8px', borderRadius: '12px', background: 'rgba(138, 43, 226, 0.1)' }}>
                         {step.icon}
                       </div>
                       <span style={{ fontWeight: '900', fontSize: '0.75rem', letterSpacing: '3px' }}>
@@ -200,9 +200,9 @@ export default function Journey() {
                     <div style={{ 
                       marginTop: '25px', display: 'inline-block',
                       padding: '6px 18px', borderRadius: '100px',
-                      backgroundColor: '#ff9a76', color: '#fff',
+                      backgroundColor: '#8A2BE2', color: '#fff',
                       fontSize: '0.75rem', fontWeight: '900',
-                      boxShadow: '0 10px 20px rgba(255, 154, 118, 0.3)'
+                      boxShadow: '0 10px 20px rgba(138, 43, 226, 0.3)'
                     }}>
                       {step.year}
                     </div>
@@ -227,9 +227,9 @@ export default function Journey() {
         <motion.div 
           animate={{ scale: [1, 1.2, 1] }}
           transition={{ duration: 1.5, repeat: Infinity }}
-          style={{ color: '#ff9a76', marginBottom: '15px' }}
+          style={{ color: '#8A2BE2', marginBottom: '15px' }}
         >
-          <Heart fill="#ff9a76" size={35} />
+          <Heart fill="#8A2BE2" size={35} />
         </motion.div>
         <p style={{ 
           maxWidth: '500px', fontSize: '1.3rem', fontWeight: '800', 

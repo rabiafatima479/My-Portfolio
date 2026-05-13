@@ -28,12 +28,12 @@ export default function Skills() {
         <motion.p 
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          style={{ color: '#ff9a76', fontWeight: '900', fontSize: '0.75rem', letterSpacing: '5px', marginBottom: '10px' }}
+          style={{ color: '#8A2BE2', fontWeight: '900', fontSize: '0.75rem', letterSpacing: '5px', marginBottom: '10px' }}
         >
           // SKILLS & MASTERY
         </motion.p>
         <h2 style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', fontWeight: '900', color: '#000', lineHeight: '1', letterSpacing: '-2px' }}>
-          My Technical <span style={{ color: '#ff9a76' }}>Edge.</span>
+          My Technical <span style={{ color: '#8A2BE2' }}>Edge.</span>
         </h2>
       </div>
 
@@ -53,7 +53,7 @@ export default function Skills() {
           position: 'absolute', 
           left: '50%', top: '50%', transform: 'translate(-50%, -50%)',
           width: '380px', height: '130px', 
-          border: '2px solid #ff9a76', 
+          border: '2px solid #8A2BE2', 
           borderRadius: '24px',
           zIndex: 10, pointerEvents: 'none',
           background: 'rgba(255, 255, 255, 0.1)',
@@ -63,8 +63,8 @@ export default function Skills() {
           alignItems: 'center',
           padding: '0 5px'
         }}>
-           <div style={{ width: '6px', height: '6px', background: '#ff9a76', borderRadius: '50%' }} />
-           <div style={{ width: '6px', height: '6px', background: '#ff9a76', borderRadius: '50%' }} />
+           <div style={{ width: '6px', height: '6px', background: '#8A2BE2', borderRadius: '50%' }} />
+           <div style={{ width: '6px', height: '6px', background: '#8A2BE2', borderRadius: '50%' }} />
         </div>
 
         {/* Moving Marquee */}
@@ -96,7 +96,7 @@ export default function Skills() {
               <div style={{ 
                 fontSize: '0.7rem', 
                 fontWeight: '800', 
-                color: '#ff9a76', 
+                color: '#8A2BE2', 
                 letterSpacing: '4px',
                 marginTop: '-10px'
               }}>
@@ -109,7 +109,7 @@ export default function Skills() {
 
       {/* --- Footer Note --- */}
       <div style={{ padding: '0 8vw', marginTop: '60px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <div style={{ height: '2px', width: '60px', background: '#ff9a76' }} />
+        <div style={{ height: '2px', width: '60px', background: '#8A2BE2' }} />
         <p style={{ color: '#444', fontSize: '0.95rem', maxWidth: '400px', textAlign: 'right', margin: 0 }}>
           Building high-performance systems with <br/> 
           <b>modern architecture.</b>

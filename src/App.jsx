@@ -39,6 +39,7 @@ export default function App() {
             <Journey />
             <Contact />
             <Footer />
+          
           </motion.div>
         )}
       </AnimatePresence>

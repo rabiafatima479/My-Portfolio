@@ -51,7 +51,7 @@ export default function Testimonials() {
       {/* --- Updated Header --- */}
       <div style={{ width: '100%', maxWidth: '1000px', marginBottom: '60px' }}>
         <p style={{ 
-          color: '#ff9a76', 
+          color: '#8A2BE2', 
           fontWeight: '700', 
           letterSpacing: '4px', 
           fontSize: '0.8rem', 
@@ -69,7 +69,7 @@ export default function Testimonials() {
           lineHeight: 1.1,
           fontFamily: '"Outfit", sans-serif'
         }}>
-          Clients & <span style={{ color: '#ff9a76' }}>Reviews.</span>
+          Clients & <span style={{ color: '#8A2BE2' }}>Reviews.</span>
         </h2>
       </div>
 
@@ -112,12 +112,12 @@ export default function Testimonials() {
               fontSize: 'clamp(6rem, 12vw, 10rem)', 
               fontFamily: 'serif', 
               opacity: 0.79, 
-              color: '#ff9a76', 
+              color: '#8A2BE2', 
               pointerEvents: 'none' 
             }}>”</span>
 
             <div style={{ zIndex: 1 }}>
-              <div style={{ width: '50px', height: '6px', backgroundColor: '#ff9a76', borderRadius: '10px', marginBottom: '35px' }} />
+              <div style={{ width: '50px', height: '6px', backgroundColor: '#8A2BE2', borderRadius: '10px', marginBottom: '35px' }} />
               <p style={{ 
                 fontSize: 'clamp(1.1rem, 2.8vw, 1.7rem)', 
                 fontWeight: '600', 
@@ -135,7 +135,7 @@ export default function Testimonials() {
                 margin: '6px 0 0 0', 
                 fontSize: '0.85rem', 
                 fontWeight: '700', 
-                color: '#ff9a76', 
+                color: '#8A2BE2', 
                 letterSpacing: '1.5px', 
                 textTransform: 'uppercase' 
               }}>
@@ -154,7 +154,7 @@ export default function Testimonials() {
               style={{ 
                 width: i === index ? '35px' : '10px', 
                 height: '10px', 
-                backgroundColor: i === index ? '#ff9a76' : '#d1e5e5', 
+                backgroundColor: i === index ? '#8A2BE2' : '#d1e5e5', 
                 borderRadius: '10px', 
                 cursor: 'pointer',
                 transition: 'all 0.4s ease'

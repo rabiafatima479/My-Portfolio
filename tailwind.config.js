@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        accent: "#FF7F50", // Coral
+        accent: "#40e0d0", // Coral
         dark: "#000000",   // Black
         light: "#F0FFFF",  // Azure
       },

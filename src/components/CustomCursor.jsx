@@ -66,9 +66,9 @@ export default function CustomCursor() {
           }}
           transition={{ type: 'spring', stiffness: 400, damping: 25 }}
           style={{
-            backgroundColor: '#ff9a76',
+            backgroundColor: '#8A2BE2',
             border: '1px solid #000',
-            boxShadow: '0 0 15px rgba(255, 154, 118, 0.5)',
+            boxShadow: '0 0 15px rgba(138, 43, 226, 0.5)',
           }}
         />
       </motion.div>
@@ -95,7 +95,7 @@ export default function CustomCursor() {
           style={{
             width: 15,
             height: 15,
-            border: '1.5px solid #ff9a76',
+            border: '1.5px solid #8A2BE2',
             borderRadius: 2,
           }}
         />

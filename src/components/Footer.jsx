@@ -17,7 +17,7 @@ const LiveClock = memo(() => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'inherit', borderLeft: '6px solid #FF7F50', paddingLeft: '20px' }}>
+    <div style={{ textAlign: 'inherit', borderLeft: '6px solid #8A2BE2', paddingLeft: '20px' }}>
       <p style={{ margin: 0, fontSize: '0.7rem', opacity: 0.5, fontWeight: '900', letterSpacing: '3px' }}>TIME / KHI</p>
       <p style={{ margin: 0, fontSize: '2rem', fontWeight: '900', fontVariantNumeric: 'tabular-nums', fontFamily: 'monospace' }}>{time}</p>
     </div>
@@ -76,16 +76,7 @@ export default function Footer() {
               Let's<br/>Evolve.
             </h2>
           </motion.div>
-          <p style={{ 
-            color: '#fff', 
-            marginTop: isMobile ? '30px' : '50px', 
-            opacity: 0.3, 
-            fontSize: '0.75rem', 
-            letterSpacing: '4px', 
-            fontWeight: '800' 
-          }}>
-            © 2026 • DIGITAL ARCHITECT
-          </p>
+         
         </div>
 
         {/* Right Section: Icons & Clock */}
@@ -105,12 +96,12 @@ export default function Footer() {
             ].map((social, i) => (
               <motion.a
                 key={i} href={social.link} target="_blank"
-                whileHover={{ backgroundColor: '#FF7F50', borderColor: '#FF7F50', y: -5 }}
+                whileHover={{ backgroundColor: '#8A2BE2', borderColor: '#8A2BE2', y: -5 }}
                 style={{ 
                   width: isMobile ? '60px' : '75px', height: isMobile ? '60px' : '75px', 
                   display: 'flex', alignItems: 'center', justifyContent: 'center',
                   borderRadius: '15px', border: '1.5px solid rgba(255,255,255,0.1)', 
-                  backgroundColor: 'rgba(255,255,255,0.04)', color: '#FF7F50', transition: '0.4s'
+                  backgroundColor: 'rgba(255,255,255,0.04)', color: '#8A2BE2', transition: '0.4s'
                 }}
               >
                 <FontAwesomeIcon icon={social.icon} size={isMobile ? "lg" : "2xl"} />
@@ -120,7 +111,7 @@ export default function Footer() {
             {/* Scroll to Top */}
             <motion.button 
               onClick={scrollToTop}
-              whileHover={{ scale: 1.1, backgroundColor: '#FF7F50' }}
+              whileHover={{ scale: 1.1, backgroundColor: '#8A2BE2' }}
               style={{ 
                 width: isMobile ? '60px' : '75px', height: isMobile ? '60px' : '75px', 
                 borderRadius: '50%', border: '2px solid rgba(255,255,255,0.15)', 
@@ -140,11 +131,11 @@ export default function Footer() {
       <div style={{ width: '100%', height: '1px', backgroundColor: 'rgba(255,255,255,0.07)', marginTop: isMobile ? '50px' : '80px', marginBottom: '20px' }} />
       
       <div style={{ 
-        display: 'flex', justifyContent: 'space-between', 
+        display: 'flex', justifyContent: 'center', alignItems: 'center',
         fontSize: '0.7rem', opacity: 0.25, fontWeight: '700', letterSpacing: '2px' 
       }}>
-        <span>KARACHI, PK</span>
-        <span>V4.0 // 2026</span>
+        <h3>Made with ❤️ by Rabia Fatima</h3>
+        
       </div>
     </footer>
   );

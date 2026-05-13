@@ -27,14 +27,14 @@ export default function Navbar() {
       transform: 'translateX(-50%)',
       width: '90%', 
       maxWidth: '1200px', 
-      backgroundColor: '#ff9a76', 
+      backgroundColor: '#8A2BE2', 
       padding: '10px 25px', 
       display: 'flex', 
       justifyContent: 'space-between', 
       alignItems: 'center', 
       borderRadius: '100px', 
       zIndex: 1000,
-      boxShadow: '0 10px 30px rgba(255, 154, 118, 0.3)', 
+      boxShadow: '0 10px 30px rgba(138, 43, 226, 0.3)', 
       border: '1px solid rgba(255, 255, 255, 0.3)'
     }}>
       
@@ -56,7 +56,7 @@ export default function Navbar() {
         }}
       >
         <span style={{ fontWeight: '900', fontSize: '1rem', color: '#fff', letterSpacing: '-1px' }}>
-          RF<span style={{ color: '#ff9a76' }}>.</span>
+          RF<span style={{ color: '#8A2BE2' }}>.</span>
         </span>
       </motion.div>
 
@@ -91,7 +91,7 @@ export default function Navbar() {
           onClick={() => scrollToSection('contact')}
           whileHover={{ scale: 1.05, backgroundColor: '#000000', color: '#FFFFFF' }}
           style={{
-            backgroundColor: '#FFFFFF', color: '#ff9a76', border: 'none',
+            backgroundColor: '#FFFFFF', color: '#8A2BE2', border: 'none',
             padding: '10px 22px', borderRadius: '50px', fontSize: '0.7rem',
             fontWeight: '900', cursor: 'pointer', boxShadow: '0 4px 10px rgba(0,0,0,0.05)'
           }}
@@ -116,16 +116,16 @@ export default function Navbar() {
             exit={{ opacity: 0, y: -20 }}
             style={{
               position: 'absolute', top: '75px', left: 0, width: '100%',
-              backgroundColor: '#ff9a76', borderRadius: '30px', padding: '20px',
+              backgroundColor: '#8A2BE2', borderRadius: '30px', padding: '20px',
               display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center',
-              border: '1px solid rgba(255, 255, 255, 0.3)', boxShadow: '0 20px 40px rgba(0,0,0,0.1)'
+              border: '1px solid rgba(138, 43, 226, 0.3)', boxShadow: '0 20px 40px rgba(0,0,0,0.1)'
             }}
           >
             {navLinks.map((link) => (
               <span
                 key={link.name}
                 onClick={() => scrollToSection(link.id)}
-                style={{ cursor: 'pointer', fontSize: '1rem', fontWeight: '900', color: '#000' }}
+                style={{ cursor: 'pointer', fontSize: '1rem', fontWeight: '900', color: '#fff' }}
               >
                 {link.name}
               </span>

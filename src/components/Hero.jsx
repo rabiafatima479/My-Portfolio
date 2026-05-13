@@ -43,18 +43,28 @@ export default function Hero() {
         transition={{ duration: 0.8, delay: 0.2 }}
         style={{ textAlign: 'center', zIndex: 2, padding: '20px' }}
       >
-        <div style={{ border: '1px solid rgba(255,127,80,0.3)', padding: '5px 15px', borderRadius: '100px', fontSize: '0.7rem', fontWeight: 'bold', color: '#FF7F50', display: 'inline-block', marginBottom: '20px', letterSpacing: '2px', backgroundColor: 'rgba(255,127,80,0.05)' }}>
-          AVAILABLE FOR PROJECTS 2026
+       {/* CEO & FOUNDER HIGHLIGHT */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '25px' }}>
+          <div style={{ border: '1px solid rgba(138, 43, 226, 0.3)', padding: '5px 15px', borderRadius: '100px', fontSize: '0.7rem', fontWeight: 'bold', color: '#8A2BE2', letterSpacing: '2px', backgroundColor: 'rgba(138, 43, 226, 0.05)', marginBottom: '10px' }}>
+            AVAILABLE FOR PROJECTS 2026
+          </div>
+          <motion.div 
+             initial={{ opacity: 0 }}
+             animate={{ opacity: 1 }}
+             transition={{ delay: 0.5 }}
+             style={{ fontSize: '1rem', fontWeight: '800', color: '#000', letterSpacing: '1px' }}
+          >
+            CEO & FOUNDER OF <span style={{ color: '#8A2BE2' }}>DEVCRAFTER</span>
+          </motion.div>
         </div>
-
         <h1 style={{ fontSize: 'clamp(3rem, 10vw, 8rem)', fontWeight: '900', lineHeight: '0.9', margin: '0 0 30px 0', letterSpacing: '-4px', textTransform: 'uppercase' }}>
           Full Stack <br /> 
-          <span style={{ color: '#FF7F50' }}>Developer</span>
+          <span style={{ color: '#8A2BE2' }}>Developer</span>
         </h1>
 
         <p style={{ maxWidth: '600px', fontSize: '1.1rem', lineHeight: '1.6', opacity: 0.8, margin: '0 auto 40px auto', color: '#333' }}>
-          Hi, I am <b style={{ fontSize: '1.6rem' }}>Rabia Fatima.</b> A <span style={{ color: '#FF7F50', fontWeight: 'bold' }}>17-year-old</span> architect building high-performance apps with 
-          <span style={{ color: '#FF7F50' }}> .NET, Laravel & React</span>. 
+          Hi, I am <b style={{ fontSize: '1.6rem' }}>Rabia Fatima.</b> A <span style={{ color: '#8A2BE2', fontWeight: 'bold' }}>17-year-old</span> architect building high-performance apps with 
+          <span style={{ color: '#8A2BE2' }}> .NET, Laravel & React</span>. 
           Bridging the gap between 2+ years of code and digital strategy.
         </p>
 
@@ -64,7 +74,7 @@ export default function Hero() {
             onClick={() => scrollToSection('work')}
             whileHover={{ scale: 1.05 }} 
             whileTap={{ scale: 0.95 }} 
-            style={{ backgroundColor: '#FF7F50', color: '#FFFFFF', border: 'none', padding: '18px 40px', fontSize: '0.8rem', fontWeight: '900', cursor: 'pointer', borderRadius: '4px', letterSpacing: '1px' }}
+            style={{ backgroundColor: '#8A2BE2', color: '#FFFFFF', border: 'none', padding: '18px 40px', fontSize: '0.8rem', fontWeight: '900', cursor: 'pointer', borderRadius: '4px', letterSpacing: '1px' }}
           >
             VIEW CASE STUDIES
           </motion.button>
@@ -87,9 +97,9 @@ export default function Hero() {
         style={{ 
           position: 'absolute', bottom: '50px', left: '50px', padding: '15px', 
           border: '1px solid rgba(0,0,0,0.05)', 
-          backgroundColor: '#FF7F50', 
+          backgroundColor: '#8A2BE2', 
           borderRadius: '12px', display: 'flex', alignItems: 'center', gap: '15px', zIndex: 5,
-          boxShadow: '0 10px 30px rgba(255,127,80,0.2)'
+          boxShadow: '0 10px 30px rgba(138, 43, 226, 0.2)'
         }}
       >
         <div style={{ width: '40px', height: '40px', backgroundColor: 'rgba(255,255,255,0.2)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
